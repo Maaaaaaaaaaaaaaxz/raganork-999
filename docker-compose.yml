@@ -15,6 +15,6 @@ services:
       REMOVEBG_KEY: ${REMOVEBG_KEY}
       PREFIX: ${PREFIX}
   aredis:
-    image: redis
+    image: aredis
 volumes:
   alogvolume01: {}
